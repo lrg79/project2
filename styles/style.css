@@ -1,0 +1,67 @@
+h1 {
+	text-align:center;
+}
+
+body{
+	padding-top:16px;
+}
+.menu{
+	top:0;
+	position:fixed;
+	width:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.toolbar {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:helvetica;
+    text-decoration: none;
+}
+
+#pokepic{
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.container{
+    width:100%;
+}
+
+.left{
+    text-align: center;
+    width:40%;
+    float: left;
+}
+
+.right{
+    text-align:center;
+    float: right;
+    width:46%;
+    text-align:center;
+}
+
+.error{
+    color:red;
+    font-size:20px;
+}
+
+.view{
+    width:100%;
+    margin-top:45%;
+}
