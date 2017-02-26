@@ -72,7 +72,7 @@ window.onload = function() {
 	$("#font-select").change(function() {
 		// START CODE Q1
 		console.log("what");
-		$(".items").css("font-size", $(this).val() + "px");
+		$(".item").css("font-size", $(this).val() + "px");
 		$(".weight").css("font-size", $(this).val() + "px");
 		// END CODE Q1
 
@@ -129,6 +129,8 @@ window.onload = function() {
 				}));
 				console.log("passed");
 			}
+
+			$("#fontSizeInput").val('');
 		}	
 
 		// END CODE Q3
